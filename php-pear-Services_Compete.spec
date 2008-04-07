@@ -22,7 +22,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Access wrapper class for Compete SnapShop API
+Access wrapper class for Compete SnapShop API.
 
 In PEAR status of this package is: %{_status}.
 
