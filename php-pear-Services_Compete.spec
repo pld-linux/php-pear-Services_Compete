@@ -1,19 +1,17 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		Services
-%define		_subclass	Compete
 %define		_status		alpha
 %define		_pearname	Services_Compete
 Summary:	%{_pearname} - Compete API
 Summary(pl.UTF-8):	%{_pearname} - API Compete
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
-Release:	3
+Release:	4
 License:	The BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	2182c9b6c2e0ab651b386b622e3479fe
 URL:		http://pear.php.net/package/Services_Compete/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.6
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-HTTP_Request >= 1.4.0
