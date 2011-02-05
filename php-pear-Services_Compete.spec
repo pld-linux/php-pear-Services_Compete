@@ -25,7 +25,7 @@ Access wrapper class for Compete SnapShop API.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 Klasa dostępu do API Compete SnapShop.
 
 Ta klasa ma w PEAR status: %{_status}.
